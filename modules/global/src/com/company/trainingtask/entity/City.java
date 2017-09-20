@@ -23,6 +23,7 @@ public class City extends BaseIdentityIdEntity implements Versioned, Updatable, 
     @Column(name = "CODE", nullable = false, unique = true)
     protected String code;
 
+
     @Version
     @Column(name = "VERSION", nullable = false)
     protected Integer version;
