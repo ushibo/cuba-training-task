@@ -26,6 +26,7 @@ def servletApi = 'org.apache.tomcat:tomcat-servlet-api:8.0.26'
 apply(plugin: 'idea')
 apply(plugin: 'cuba')
 
+
 cuba {
     artifact {
         group = 'com.company.trainingtask'
